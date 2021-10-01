@@ -8,8 +8,6 @@ import pprint
 import time
 import pandas as pd
 from urllib import parse
-import requests
-
 
 # 获取页面中出现的链接
 def getUrl():
