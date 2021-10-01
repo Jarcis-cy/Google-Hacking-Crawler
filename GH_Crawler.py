@@ -66,7 +66,7 @@ def createCsv(aList,csvName):
 
 # 传入参数设置
 csvName = str(int(time.time())) + ".csv"
-parser = argparse.ArgumentParser(description='Create and delete servers',formatter_class = argparse.RawDescriptionHelpFormatter)
+parser = argparse.ArgumentParser()
 parser.add_argument('--gpu', action="store_false", help='输入该参数将显示chrome，显示爬取过程，默认为False')
 parser.add_argument('-s', type=str, default='site:.com', help='请输入你想搜索的google hacking语句，默认为site:.com，以此作为测试')
 parser.add_argument('-p', type=int, default=1, help='请输入你想搜索的页数，默认1页')
