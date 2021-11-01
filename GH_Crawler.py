@@ -3,7 +3,7 @@
 @File   :   GH_Crawler.py
 @Time   :   2021/10/1
 @Author :   Jarcis-cy
-@Link   :   https://github.com/Jarcis-cy
+@Link   :   https://github.com/Jarcis-cy/Google-Hacking-Crawler
 '''
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
